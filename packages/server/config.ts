@@ -12,4 +12,5 @@ const appConfig: Record<string, any> = Object.keys(envConfig).reduce((result, ke
     };
 }, {});
 
+appConfig.host = '127.0.0.1';
 export default appConfig;

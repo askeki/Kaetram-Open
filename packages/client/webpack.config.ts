@@ -84,7 +84,7 @@ const config: WebpackOptions = {
     devServer: {
         contentBase: __dirname,
         compress: true,
-        port: 9000
+        port: 3000
     },
     plugins: [
         new CleanWebpackPlugin(),
